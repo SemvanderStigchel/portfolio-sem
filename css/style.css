@@ -11,6 +11,7 @@ body {
     padding: 10px;
     background-color: #04c789;
     margin-top: 10px;
+    border-radius: 5px;
   }
   
   h1, h2 {
@@ -23,9 +24,16 @@ body {
   }
   
   footer {
-    margin-top: 30px;
     background-color: #e08cfa;
     text-align: right;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 77vw;
+  }
+
+  .copyright {
+    float: left;
   }
   
   #container {
@@ -33,6 +41,7 @@ body {
     max-width: 1200px;
     min-width: 300px;
     margin: 0 auto;
+    text-align: center;
   }
   
   .text-content {
@@ -41,7 +50,7 @@ body {
   
   p {
     color:#c103fc;
-    text-align: left;
+    text-align: center;
   }
   
   
@@ -60,5 +69,86 @@ body {
   }
   
   table {
-    text-align:center;
+    align-items: center;
   }
+
+  th, td {
+    padding-right: 20px;
+    text-align: left;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+  }
+
+  .favorite-games {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    border-width: 3px;
+    border-color: #e08cfa;
+    border-style: solid;
+    border-radius: 20px;
+    float: right;
+    width: 46%;
+    padding: 10px;
+  }
+
+  .game-picture {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #fc6a6c;
+    border-style: solid;
+  }
+
+  .profile-picture {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #fc6a6c;
+    border-style: solid;
+  }
+
+  ul {
+    display: inline-block;
+  }
+
+  .introduction {
+    padding: 5px;
+    border-width: 3px;
+    border-color: #fc6a6c;
+    border-style: solid;
+    border-radius: 20px;
+  }
+
+  .left {
+    float: left;
+    width: 48%;
+    border-width: 3px;
+    border-color: #04c789;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 5px;
+    margin-bottom: 50px;
+  }
+
+  .right {
+    float: right;
+    width: 48%;
+    border-width: 3px;
+    border-color: #f4fc83;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 5px;
+  }
+
+  .tennis-picture {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #fc6a6c;
+    border-style: solid;
+  }
+
+
+
+  

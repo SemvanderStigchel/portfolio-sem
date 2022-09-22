@@ -10,40 +10,48 @@
 <body>
     <div id='container'>
         <header>
-          <img src='img/profile.jpg' alt='Profielfoto'>
+          <img class="profile-picture" src='img/profielfoto-website.jpg' alt='Profielfoto'>
           <nav>
+            <a class="menu-link" href="#Introductie">Over mij</a>
             <a class='menu-link' href='#Hobby'>Mijn hobby's</a>
             <a class='menu-link' href='#learn'>Wat ik wil leren</a>
-            <a class='menu-link' href='#games'>Favoriete games</a>
+            <a class="menu-link" href="#games">Favoriete Games</a>
           </nav>
         </header>
       
         <main>
-          <h1>Welkom, mijn naam is Sem!</h1>
-      
-          <p>Ik ben 17 jaar oud en ik woon in Schoonhoven.</p>
+          <h1>Portfolio Sem van der Stigchel</h1>
+          <section class="introduction" id="Introductie">
+            <h2>Over mij:</h2>
+            <p>Ik ben 17 jaar oud en ik woon in Schoonhoven. Ik ben sinds kort een Creative Media and Game Technologies student aan de Hogeschool Rotterdam. Ik vind het erg leuk om te programmeren en te expirimenteren met Html, Css en Javascript.</p>
+          </section>
           <section class='text-content' id='Hobby'>
-            <h2>Mijn hobby's zijn:</h2>
-            <ul>
-              <li>Gamen</li>
-              <li>tafeltennissen</li>
-              <li>tennissen</li>
-              <li>skiën</li>
-            </ul>
+            <section class="left">
+              <h2>Mijn hobby's zijn:</h2>
+              <ul>
+                <li>Gamen</li>
+                <li>Tafeltennissen</li>
+                <li>Tennissen</li>
+                <li>Skiën</li>
+              </ul>
+              <section>
+                <img class="tennis-picture" src="img/tennis-picture-2.jpeg" alt="Foto tennisbaan">
+              </section>
+            </section>
           </section>
           <section class='text-content' id='learn'>
-            <h2>Wat ik wil leren:</h2>
-            <p>Ik wil graag leren hoe ik in HTML en CSS een mooie website kan bouwen zonder dat ik programma's als WordPress hoef te gebruiken.</p>
-      
-            <img src=https://source.unsplash.com/800x450/?tennis>
+            <section class="right">
+              <h2>Wat ik wil leren:</h2>
+              <p>Ik wil graag leren hoe ik in HTML en CSS een mooie website kan bouwen zonder dat ik programma's als WordPress hoef te gebruiken.</p>
+            </section>
           </section>
-          <section id='games'>
-            <h2>Favoriete games:</h2>
+          <section class="favorite-games" id="games">
+            <h2>Favoriete Games:</h2>
             <table>
               <tr>
-                <th>Game</th>
-                <th>Studio</th>
-                <th>Cijfer</th>
+                <th>Game:</th>
+                <th>Studio:</th>
+                <th>Cijfer:</th>
               </tr>
               <tr>
                 <td>Apex Legends</td>
@@ -55,13 +63,23 @@
                 <td>Rockstar Games</td>
                 <td>9</td>
               </tr>
+              <tr>
+                <td>Assassins Creed 2</td>
+                <td>Ubisoft</td>
+                <td>8</td>
+              </tr>
             </table>
+            <section>
+              <img class="game-picture" src="img/game-picture2.jpg" alt="Foto Assassins Creed">
+            </section>
           </section>
         </main>
       
         <footer>
-          <span>&copy; Sem 2022</span>
-          <a href=https://github.com/HR-CMGT/frontend-2022-2023 target='_blank'>Github</a>
+          <section class="copyright">
+            <span>&copy; Sem 2022</span>
+          </section>
+          <a href=https://www.instagram.com/tennisracket_bespannen_sch/ target='_blank'>Tennisracket bespanningen</a>
         </footer>
       </div>
 </body>
