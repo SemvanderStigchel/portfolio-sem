@@ -13,6 +13,16 @@ body {
     margin-top: 10px;
     border-radius: 5px;
   }
+
+  .menu-link:hover {
+      color:#f4fc83;
+      text-decoration:none;
+      border-color: #fc6a6c;
+      border-width: 2px;
+      border-style: solid;
+      background-color: darkgreen;
+  }
+
   
   h1, h2 {
     color:#fc6a6c;
@@ -21,6 +31,11 @@ body {
   
   footer a {
     color: green;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+    color: #f4fc83;
   }
   
   footer {
@@ -53,12 +68,6 @@ body {
     text-align: center;
   }
   
-  
-  a:hover {
-    color:#f4fc83;
-    text-decoration:underline;
-  }
-  
   li {
     color:#c103fc;
   }
@@ -68,9 +77,6 @@ body {
     text-decoration:none;
   }
   
-  table {
-    align-items: center;
-  }
 
   th, td {
     padding-right: 20px;
@@ -83,7 +89,7 @@ body {
   .favorite-games {
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     border-width: 3px;
     border-color: #e08cfa;
     border-style: solid;
@@ -91,6 +97,10 @@ body {
     float: right;
     width: 46%;
     padding: 10px;
+  }
+
+  table {
+    padding-left: 100px;
   }
 
   .game-picture {
@@ -129,7 +139,7 @@ body {
     border-style: solid;
     border-radius: 20px;
     margin: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .right {
@@ -143,6 +153,26 @@ body {
   }
 
   .tennis-picture {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #fc6a6c;
+    border-style: solid;
+  }
+
+  .first-project {
+    border-radius: 20px;
+    border-color: #c103fc;
+    border-style: solid;
+    border-width: 3px;
+    float: left;
+    margin-bottom: 50px;
+    width: 98%;
+    font-size: 1.1em;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .wekker-picture {
     border-radius: 10px;
     border-width: 3px;
     border-color: #fc6a6c;
