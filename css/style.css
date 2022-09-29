@@ -5,22 +5,60 @@ body {
     font-family:sans-serif;
     font-size: 15px;
   }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    background-color: #04c789;
+    height: 500px;
+  }
+
+  nav {
+    display: flex;
+    height: 100px;
+  }
+
+  .menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0px;
+  }
+
+  figure {
+    margin: 0px;
+  }
+
+  .title-banner {
+    height: 400px;
+    background-image: url(hero-image-website.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 5em;
+  }
   
   .menu-link {
-    color: #e08cfa;
-    padding: 10px;
+    color: #375a91;
+    padding: 20px;
     background-color: #04c789;
-    margin-top: 10px;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
   }
 
   .menu-link:hover {
-      color:#f4fc83;
+      color: #375a91;
       text-decoration:none;
-      border-color: #fc6a6c;
-      border-width: 2px;
-      border-style: solid;
-      background-color: darkgreen;
+      background-color: #4ea379;
   }
 
   
@@ -30,33 +68,37 @@ body {
   }
   
   footer a {
-    color: green;
-  }
-
-  footer a:hover {
-    text-decoration: underline;
-    color: #f4fc83;
-  }
-  
-  footer {
-    background-color: #e08cfa;
-    text-align: right;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 77vw;
+    color: #375a91;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .copyright {
-    float: left;
+    padding: 10px;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    background-color: #4ea379;
+  }
+  
+  footer {
+    background-color: #04c789;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
   }
   
   #container {
-    width: 85vw;
-    max-width: 1200px;
     min-width: 300px;
-    margin: 0 auto;
+    margin: 0px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
   
   .text-content {
@@ -111,12 +153,9 @@ body {
   }
 
   .profile-picture {
-    margin-bottom: 10px;
-    margin-top: 20px;
-    border-radius: 10px;
-    border-width: 3px;
-    border-color: #fc6a6c;
-    border-style: solid;
+    height: 95px;
+    width: 200px;
+    margin: 2px 2px;
   }
 
   ul {
