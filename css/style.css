@@ -1,5 +1,5 @@
 body {
-    background-color:#8cfadf;
+    background-color:#b1c2c9;
     margin: 0px;
     padding: 0px;
     font-family:sans-serif;
@@ -62,11 +62,16 @@ body {
   }
 
   
-  h1, h2 {
+  h1 {
     color:#fc6a6c;
     font-style:italic;
   }
   
+  h2 {
+    color: #375a91;
+    font-style: italic;
+  }
+
   footer a {
     color: #375a91;
     height: 100px;
@@ -101,22 +106,34 @@ body {
     flex-direction: column;
   }
   
-  .text-content {
-    font-size: 1.1em;
-  }
   
   p {
-    color:#c103fc;
-    text-align: center;
+    color:black;
   }
   
   li {
-    color:#c103fc;
+    color:black;
   }
   
   a {
     font-size:20px;
     text-decoration:none;
+  }
+
+  .favorite-games {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .small-title {
+    font-size: 1em;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px grey;
+    margin-bottom: 10px;
   }
   
 
@@ -126,30 +143,6 @@ body {
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-  }
-
-  .favorite-games {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    border-width: 3px;
-    border-color: #e08cfa;
-    border-style: solid;
-    border-radius: 20px;
-    float: right;
-    width: 46%;
-    padding: 10px;
-  }
-
-  table {
-    padding-left: 100px;
-  }
-
-  .game-picture {
-    border-radius: 10px;
-    border-width: 3px;
-    border-color: #fc6a6c;
-    border-style: solid;
   }
 
   .profile-picture {
@@ -163,60 +156,73 @@ body {
   }
 
   .introduction {
-    padding: 5px;
-    border-width: 3px;
-    border-color: #fc6a6c;
-    border-style: solid;
-    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
-  .left {
-    float: left;
-    width: 48%;
-    border-width: 3px;
-    border-color: #04c789;
-    border-style: solid;
-    border-radius: 20px;
-    margin: 5px;
-    margin-bottom: 20px;
+  .big-title {
+    font-size: 1.6em;
+    border: 2px black solid;
+    box-shadow: 5px 5px 10px grey;
   }
 
-  .right {
-    float: right;
-    width: 48%;
-    border-width: 3px;
-    border-color: #f4fc83;
-    border-style: solid;
-    border-radius: 20px;
-    margin: 5px;
+  .over-mij-p {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-  .tennis-picture {
-    border-radius: 10px;
-    border-width: 3px;
-    border-color: #fc6a6c;
-    border-style: solid;
+  .over-mij-body {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4em;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+  }
+
+  .over-mij-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-self-section {
+    padding-top: 25px;
+  }
+
+  .img-self {
+    width: 25vw;
+    height: 70vh;
+    box-shadow: 5px 5px 10px grey;
   }
 
   .first-project {
-    border-radius: 20px;
-    border-color: #c103fc;
-    border-style: solid;
-    border-width: 3px;
-    float: left;
-    margin-bottom: 50px;
-    width: 98%;
-    font-size: 1.1em;
-    padding: 10px;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px 20px 100px 20px;
+  }
+
+  .first-project-body {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .first-project-text {
+    font-size: 1.4em;
+    text-align: left;
+    padding: 0px 20px;
+  }
+
+  .first-project-img {
+    padding-top: 25px;
   }
 
   .wekker-picture {
-    border-radius: 10px;
-    border-width: 3px;
-    border-color: #fc6a6c;
-    border-style: solid;
+    width: 300px;
+    height: 250px;
+    box-shadow: 5px 5px 10px grey;
   }
+
 
 
 
