@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem van der Stigchel</title>
+    <link rel='stylesheet' href='css/style.css'/>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div id='container'>
+        <header>
+          <section class="menu-bar">
+            <figure>
+              <img class="profile-picture" src='img/cmgt-logo.webp' alt='logo wbesite'>
+            </figure>
+            <nav>
+                <a class="menu-link" href="index.html">Home</a>
+                <a class="menu-link" href="index.html#Introductie">Over mij</a>
+                <a class="menu-link" href="index.html#games">Favoriete Games</a>
+                <a class="menu-link" href="index.html#project">Projecten</a>
+                <a class="menu-link" href="contact.html">Contact</a>
+            </nav>
+          </section>
+          <section class="title-banner">
+            <section class="title">
+              <h1>Portfolio Sem van der Stigchel</h1>
+            </section>
+          </section>
+        </header>
+      
+        <main>
+            <section class="contact-form">
+                <section class="big-title">
+                    <h2>Contact</h2>
+                </section>
+                <section class="text-body">
+                    <form action="contact-bedankt.html">
+                        <div class="form-element">
+                            <label for="name">Naam:</label>
+                            <input id="name" type="text" name="name" placeholder="Vul hier uw voor- en achternaam in" required>
+                        </div>
+                        <div class="form-element">
+                            <label for="city">Woonplaats:</label>
+                            <input id="city" type="text" name="city" placeholder="Vul hier uw woonplaats in" required>
+                        </div>
+                        <div class="form-element">
+                            <label for="email">E-mail:</label>
+                            <input id="email" type="text" name="email" placeholder="name@hr.nl" required>
+                        </div>
+                        <div class="form-element">
+                            <label for="date">Datum:</label>
+                            <input id="date" type="date" name="date" placeholder="dd/mm/yyyy" required>
+                        </div>
+                        <div class="form-element">
+                            <label for="category">Ik heb een vraag over:</label>
+                            <select id="category" name="category" required>
+                                <option value="category">kies een onderwerp</option>
+                                <option value="cake">Roze koeken</option>
+                                <option value="cle">CLE</option>
+                                <option value="fed">Front-End Development</option>
+                                <option value="programming">Programmeren</option>
+                            </select>
+                        </div>
+                        <div class="form-element-textarea">
+                            <label for="question">Mijn vraag:</label>
+                            <textarea id="question" rows="8" name="question" placeholder="Stel hier je vraag." required></textarea>
+                        </div>
+                        <div class="form-element-checkbox">
+                            <label class="checkbox-label" for="requirements">Ik ga akkoord met de voorwaarden</label>
+                            <input type="checkbox" id="requirements" name="requirements" value="Requirements" required>
+                        </div>
+                        <div class="form-element-submit">
+                            <button type="submit">Versturen</button>
+                        </div>
+                    </form>
+                </section>
+            </section>
+        </main>
+      
+        <footer>
+          <section class="copyright">
+            <span>&copy; Sem 2022</span>
+          </section>
+          <a href=https://www.instagram.com/tennisracket_bespannen_sch/ target='_blank'>Tennisracket bespanningen</a>
+        </footer>
+      </div>
+</body>
+</html>
