@@ -1,3 +1,3 @@
 # Portfolio Sem
 
-Dit wordt mijn portfolio website
+Dit is mijn portfolio website, als u een vraag heeft aan mij kunt u het contactformulier op de website invullen.
