@@ -215,8 +215,7 @@ body {
   }
 
   .profile-picture {
-    height: 95px;
-    width: 200px;
+    height: 100px;
     margin: 2px 2px;
   }
 
@@ -618,6 +617,21 @@ body {
     .fp-picture {
       width: 100%;
     }
+  }
+
+  .skills-table {
+    padding: 10px 30px;
+  }
+
+  .skills-table-filled {
+    padding: 10px 30px;
+    background-color: #def1ff;
+  }
+
+  .skills-body {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
   }
 
 
